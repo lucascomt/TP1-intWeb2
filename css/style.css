@@ -87,6 +87,16 @@ section {
   padding: 10px;
   color: #011e2e;
 }
+.couleur-section {
+  background-color: #01154e;
+  color: #f6f5ec;
+  height: 100%;
+}
+.main-section {
+  background-color: #f6f5ec;
+  color: #606164;
+  padding: 10px;
+}
 
 /* Défini largeur maximum de la page */
 .container {
@@ -105,7 +115,7 @@ section {
   width: 50%;
 }
 .col-30 {
-  width: 30%;
+  width: 25%;
 }
 .col-70 {
   width: 70%;
@@ -128,6 +138,13 @@ section {
 /* Adapte le texte */
 h1, h2, h5 {
   margin: 0;
+}
+.couleur-section h2 {
+  margin-bottom: 20px;
+}
+.cadre {
+  border-radius: 25px;
+  border: 1px solid;
 }
 
 /* positionne le texte */
