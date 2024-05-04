@@ -27,6 +27,9 @@ footer img {
   width: 20px;
   margin: 5px;
 }
+section {
+  margin: 10px 40px;
+}
 img {
   border-radius: 5px;
 }
@@ -128,13 +131,13 @@ h1, h5 {
 }
 
 /* positionne le texte */
-.gauche {
+.texte-gauche {
   text-align: left;
 }
-.droite {
+.texte-droite {
   text-align: right;
 }
-.centre {
+.texte-centre {
   text-align: center;
 }
 
