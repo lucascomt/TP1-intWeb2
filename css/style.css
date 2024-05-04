@@ -1,3 +1,143 @@
+/*determine les fonts, les couleurs, la grosseur et la distance entre les lignes pour tout le texte*/
+body {
+  background-color: #f6f5ec;
+  color: #606164;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+/*défini bordures de l'entête et le pied de page du site*/
+header {
+  text-align: left;
+  color: #f6f5ec;
+  background-color: #01154e;
+  padding: 0px 20px;
+  margin: 0px;
+}
+footer {
+  color: #a9b6b1;
+  font-size: 0.8rem;
+  background-color: #01154e;
+  padding: 15px;
+}
+footer img {
+  width: 20px;
+  margin: 5px;
+}
+img {
+  border-radius: 5px;
+}
+
+/*affiche les boutons en haut*/
+nav {
+  float: right;
+  font-size: 0.7rem;
+  padding: 0px;
+  padding-top: 10px;
+  padding-right: 60px;
+}
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.btn {
+  background-color: #01154e;
+  border: #01154e;
+  border: 1px solid;
+  color: #f6f5ec;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #f6f5ec;
+  color: #606164;
+  text-decoration: none;
+}
+.btn-page {
+  background-color: #f6f5ec;
+  color: #606164;
+  text-decoration: none;
+}
+
+/*couleur du lien avec effet de survole*/
+a {
+  text-decoration: none;
+  color: #606164;
+}
+a:hover {
+  color: #d33a43;
+}
+
+/*decolle le texte du bord et met une couleur de fond*/
+section {
+  padding: 10px;
+  color: #011e2e;
+}
+
+/* Défini largeur maximum de la page */
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Permet de positionner des elements un à coté de l'autre */
+.container-flex {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.col-50 {
+  width: 50%;
+}
+.col-30 {
+  width: 30%;
+}
+.col-70 {
+  width: 70%;
+}
+.col-20 {
+  width: 20%;
+}
+.col-80 {
+  width: 80%;
+}
+
+/* Pour metre la couleur dans le texte */
+.texte-rouge {
+  color: #d33a43;
+}
+.texte-blanc {
+  color: #f6f5ec;
+}
+
+/* Adapte le texte */
+h1, h5 {
+  margin: 0;
+}
+
+/* positionne le texte */
+.gauche {
+  text-align: left;
+}
+.droite {
+  text-align: right;
+}
+.centre {
+  text-align: center;
+}
+
 /* Texte destiné uniquement aux lecteurs d'écran. */
 .screen-reader-text {
     border: 0;
