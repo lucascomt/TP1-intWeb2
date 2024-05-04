@@ -126,7 +126,7 @@ section {
 }
 
 /* Adapte le texte */
-h1, h5 {
+h1, h2, h5 {
   margin: 0;
 }
 
