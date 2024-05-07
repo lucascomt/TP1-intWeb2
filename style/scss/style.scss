@@ -1,7 +1,15 @@
+/**  VARIABLES **/
+
+$color-text: #606164; //texte
+$color-principale: #e9f3f6; //page
+$color-principale-fonce: #01154e; //cadre
+$color-header: #01154e; //background-header
+$color-background: #fff;
+
 /*determine les fonts, les couleurs, la grosseur et la distance entre les lignes pour tout le texte*/
 body {
-  background-color: #f6f5ec;
-  color: #606164;
+  background-color: $color-principale;
+  color: $color-text;
   font-size: 1.5rem;
   line-height: 1.1;
   padding: 0px;
@@ -12,7 +20,7 @@ body {
 /*défini bordures de l'entête et le pied de page du site*/
 header {
   text-align: left;
-  color: #f6f5ec;
+  color: $color-principale;
   background-color: #01154e;
   padding: 0px 20px;
   margin: 0px;
@@ -20,12 +28,12 @@ header {
 footer {
   color: #a9b6b1;
   font-size: 0.8rem;
-  background-color: #01154e;
+  background-color: $color-header;
   padding: 15px;
-}
-footer img {
-  width: 20px;
-  margin: 5px;
+  img {
+    width: 20px;
+    margin: 5px;
+  }
 }
 section {
   margin: 10px 40px;
@@ -41,45 +49,45 @@ nav {
   padding: 0px;
   padding-top: 10px;
   padding-right: 60px;
-}
-nav ul {
-  padding: 0;
-}
-nav li {
-  display: inline-block;
-}
-nav a {
-  display: inline-block;
-  padding: 5px 10px;
-  text-decoration: none;
+  ul {
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
 }
 .btn {
-  background-color: #01154e;
-  border: #01154e;
+  background-color: $color-header;
+  border: $color-header;
   border: 1px solid;
-  color: #f6f5ec;
+  color: $color-principale;
   border-radius: 5px;
   width: 150px;
   text-align: center;
-}
-.btn:hover {
-  background-color: #f6f5ec;
-  color: #606164;
-  text-decoration: none;
+  &:hover {
+    background-color: $color-principale;
+    color: #606164;
+    text-decoration: none;
+  }
 }
 .btn-page {
-  background-color: #f6f5ec;
-  color: #606164;
+  background-color: $color-principale;
+  color: $color-text;
   text-decoration: none;
 }
 
 /*couleur du lien avec effet de survole*/
 a {
   text-decoration: none;
-  color: #606164;
-}
-a:hover {
-  color: #d33a43;
+  color: $color-text;
+  &:hover {
+    color: #d33a43;
+  }
 }
 
 /*decolle le texte du bord et met une couleur de fond*/
@@ -88,13 +96,13 @@ section {
   color: #011e2e;
 }
 .couleur-section {
-  background-color: #01154e;
-  color: #f6f5ec;
+  background-color: $color-header;
+  color: $color-principale;
   height: 100%;
 }
 .main-section {
-  background-color: #f6f5ec;
-  color: #606164;
+  background-color: $color-principale;
+  color: $color-text;
   padding: 10px;
 }
 

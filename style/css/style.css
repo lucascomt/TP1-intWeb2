@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/**  VARIABLES **/
+/*determine les fonts, les couleurs, la grosseur et la distance entre les lignes pour tout le texte*/
+body {
+  background-color: #e9f3f6;
+  color: #606164;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+/*défini bordures de l'entête et le pied de page du site*/
+header {
+  text-align: left;
+  color: #e9f3f6;
+  background-color: #01154e;
+  padding: 0px 20px;
+  margin: 0px;
+}
+
+footer {
+  color: #a9b6b1;
+  font-size: 0.8rem;
+  background-color: #01154e;
+  padding: 15px;
+}
+footer img {
+  width: 20px;
+  margin: 5px;
+}
+
+section {
+  margin: 10px 40px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+/*affiche les boutons en haut*/
+nav {
+  float: right;
+  font-size: 0.7rem;
+  padding: 0px;
+  padding-top: 10px;
+  padding-right: 60px;
+}
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #01154e;
+  border: #01154e;
+  border: 1px solid;
+  color: #e9f3f6;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #e9f3f6;
+  color: #606164;
+  text-decoration: none;
+}
+
+.btn-page {
+  background-color: #e9f3f6;
+  color: #606164;
+  text-decoration: none;
+}
+
+/*couleur du lien avec effet de survole*/
+a {
+  text-decoration: none;
+  color: #606164;
+}
+a:hover {
+  color: #d33a43;
+}
+
+/*decolle le texte du bord et met une couleur de fond*/
+section {
+  padding: 10px;
+  color: #011e2e;
+}
+
+.couleur-section {
+  background-color: #01154e;
+  color: #e9f3f6;
+  height: 100%;
+}
+
+.main-section {
+  background-color: #e9f3f6;
+  color: #606164;
+  padding: 10px;
+}
+
+/* Défini largeur maximum de la page */
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Permet de positionner des elements un à coté de l'autre */
+.container-flex {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-30 {
+  width: 25%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.col-80 {
+  width: 80%;
+}
+
+/* Pour metre la couleur dans le texte */
+.texte-rouge {
+  color: #d33a43;
+}
+
+.texte-blanc {
+  color: #f6f5ec;
+}
+
+/* Adapte le texte */
+h1, h2, h5 {
+  margin: 0;
+}
+
+.couleur-section h2 {
+  margin-bottom: 20px;
+}
+
+.cadre {
+  border-radius: 25px;
+  border: 1px solid;
+}
+
+/* positionne le texte */
+.texte-gauche {
+  text-align: left;
+}
+
+.texte-droite {
+  text-align: right;
+}
+
+.texte-centre {
+  text-align: center;
+}
+
+/* Texte destiné uniquement aux lecteurs d'écran. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
