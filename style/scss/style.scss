@@ -99,6 +99,7 @@ section {
   background-color: $color-header;
   color: $color-principale;
   height: 100%;
+  gap: 5px;
 }
 .main-section {
   background-color: $color-principale;
@@ -111,6 +112,7 @@ section {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
+  padding: 0 auto;
 }
 
 /* Permet de positionner des elements un à coté de l'autre */
@@ -123,7 +125,7 @@ section {
   width: 50%;
 }
 .col-30 {
-  width: 25%;
+  width: 33%;
 }
 .col-70 {
   width: 70%;
@@ -153,6 +155,7 @@ h1, h2, h5 {
 .cadre {
   border-radius: 25px;
   border: 1px solid;
+  margin: 0 auto;
 }
 
 /* positionne le texte */
@@ -195,3 +198,20 @@ h1, h2, h5 {
     width: auto;
     z-index: 100000; /* Above WP toolbar. */
   }
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1200px) {
+  .container-block2 {
+    display: block;
+  }
+  .col-30 {
+    width: 93%;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
