@@ -4,7 +4,7 @@ $color-text: #606164; //texte
 $color-principale: #e9f3f6; //page
 $color-principale-fonce: #01154e; //cadre
 $color-header: #01154e; //background-header
-$color-background: #fff;
+$color-background: #e9f3f6;
 
 /*determine les fonts, les couleurs, la grosseur et la distance entre les lignes pour tout le texte*/
 body {
@@ -94,12 +94,12 @@ a {
 section {
   padding: 10px;
   color: #011e2e;
+  gap: 5px;
 }
 .couleur-section {
   background-color: $color-header;
   color: $color-principale;
   height: 100%;
-  gap: 5px;
 }
 .main-section {
   background-color: $color-principale;
@@ -118,6 +118,7 @@ section {
 /* Permet de positionner des elements un à coté de l'autre */
 .container-flex {
   margin: 0 auto;
+  padding: 10px;
   display: flex;
   justify-content: center;
 }
@@ -212,6 +213,6 @@ h1, h2, h5 {
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   body {
-    background-color: olive;
+    background-color: #e9f3f6;
   }
 }

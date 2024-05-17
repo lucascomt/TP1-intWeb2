@@ -93,13 +93,13 @@ a:hover {
 section {
   padding: 10px;
   color: #011e2e;
+  gap: 5px;
 }
 
 .couleur-section {
   background-color: #01154e;
   color: #e9f3f6;
   height: 100%;
-  gap: 5px;
 }
 
 .main-section {
@@ -119,6 +119,7 @@ section {
 /* Permet de positionner des elements un à coté de l'autre */
 .container-flex {
   margin: 0 auto;
+  padding: 10px;
   display: flex;
   justify-content: center;
 }
@@ -223,6 +224,6 @@ h1, h2, h5 {
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   body {
-    background-color: olive;
+    background-color: #e9f3f6;
   }
 }
