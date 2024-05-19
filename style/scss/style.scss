@@ -10,7 +10,7 @@ $color-background: #e9f3f6;
 body {
   background-color: $color-principale;
   color: $color-text;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.1;
   padding: 0px;
   margin: 0px;
@@ -32,7 +32,7 @@ footer {
   background-color: $color-header;
   padding: 15px;
   img {
-    width: 20px;
+    width: 30px;
     margin: 5px;
   }
 }
@@ -96,6 +96,10 @@ section {
   color: #011e2e;
   gap: 5px;
 }
+iframe {
+margin: 0;
+padding: 0;
+}
 .couleur-section {
   background-color: $color-header;
   color: $color-principale;
@@ -149,6 +153,9 @@ section {
 /* Adapte le texte */
 h1, h2, h5 {
   margin: 0;
+}
+h5 {
+  font-size: 1.2rem;
 }
 .couleur-section h2 {
   margin-bottom: 20px;
