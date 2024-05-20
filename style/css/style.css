@@ -115,7 +115,7 @@ iframe {
 
 /* Défini largeur maximum de la page */
 .container {
-  max-width: 1200px;
+  max-width: 1600px;
   width: 90%;
   margin: 0 auto;
   padding: 0 auto;
@@ -147,6 +147,51 @@ iframe {
 
 .col-80 {
   width: 80%;
+}
+
+.container-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.grid {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.grid-item1 {
+  grid-column: 1/4;
+  grid-row: 3/5;
+}
+
+.grid-item2 {
+  grid-column: 4/9;
+  grid-row: 1/4;
+}
+
+.grid-item3 {
+  grid-column: 9/11;
+  grid-row: 2/4;
+}
+
+.grid-item4 {
+  grid-column: 11/13;
+  grid-row: 3/5;
+}
+
+.grid-item5 {
+  grid-column: 4/6;
+  grid-row: 4/6;
+}
+
+.grid-item6 {
+  grid-column: 6/11;
+  grid-row: 4/7;
 }
 
 /* Pour metre la couleur dans le texte */
@@ -232,6 +277,9 @@ h5 {
 }
 /* On screens that are 1000px or less */
 @media screen and (max-width: 1000px) {
+  .container-grid {
+    display: block;
+  }
   nav {
     padding: 0;
   }
