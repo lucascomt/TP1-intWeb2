@@ -1,294 +1,332 @@
 <!DOCTYPE html>
 <html lang="fr-ca">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empyrion - Survivant Galactique</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empyrion - Survivant Galactique</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/css/style.css">
 </head>
+
 <body><a href="" class="screen-reader-text" aria-label="lien caché">petit test</a>
-    <header>
-        <div class="container-flex">
-            <div class="col-20 centre">
-                <h1>Empyrion</h1>
-            <h5>Survivant Galactique</h5>
-            </div>
-            <div class="col-80 texte-droite">
-                <nav>
-                    <ul>
-                      <li><a href="#jeu" class="btn">Le Jeu</a></li>
-                      <li><a href="#serveur" class="btn">Le Serveur</a></li>
-                      <li><a href="#trucs" class="btn">Trucs et astuces</a></li>
-                      <li><a href="#joindre" class="btn">Nous joindre</a></li>
-                    </ul>
-                  </nav>
-            </div>
-        </div>
-    </header>
-    
-    <main class="container">
-        <section>
-            <div class="container-flex">
-                <div class="texte-centre col-100">
-                    <div class="bd-example">
-                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                          <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-                          </ol>
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="medias/mineur.jpg" class="d-block w-100" alt="...">
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>Mineur automatique</h5>
-                                <p>La clé de la récolte, faire le tour tous les jours pour ramasser les ressouces miners durant notre absence.</p>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <img src="medias/serre.jpg" class="d-block w-100" alt="...">
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>La serre</h5>
-                                <p>Bien se nourrir c'est important et l'aggriculture est le meilleur moyen d'y arriver.</p>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <img src="medias/base.jpg" class="d-block w-100" alt="...">
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>Construire sa base</h5>
-                                <p>Un endroit pour s'installer et rassembler nos ressources.</p>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="medias/espace.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                  <h5>L'espace et ces différentes nations</h5>
-                                  <p>Beaucoup d'endroit à explorer et o&ugrave; l'on peut s'installer.</p>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <img src="medias/navette.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                  <h5>Les navettes</h5>
-                                  <p>Le moyen le plus rapide d'explorer une planète.</p>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <img src="medias/vaisseau.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                  <h5>Les vaisseaux</h5>
-                                  <p>Pour voyager entre les planètes ou pour faire la guerre, c'est à vous de décider.</p>
-                                </div>
-                              </div>
-                          </div>
-                          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                          </a>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </section>
-        <section class="texte-centre">
-          <h1>Le petit monde d'Óðinn</h1>
-          <p>La maniere la plus simple de conquérir l'Univers.</p>
-        </section>
-        <div class="container-flex flex2">
-        <section id="jeu" class="cadre col-30 couleur-section">
-            <h2 class="texte-centre">Le jeu</h2>
-            <div class="main-section cadre">
-            <p>Jeu de survie et de conquête dans l'infini de l'espace.</p>
-            <p>Construisez votre civilisation en récoltant les ressources nécessaires sur différents mondes.</p>
-            <p>Défendez-vous contre les extra terrestres et les créatures hostiles.</p>
-            <p>Explorez et partez à la conquête d'autres territoires à exploiter.</p>
-            <p>Pour construire, il y a une très grande quantité de choses possible à faire.</p> 
-                <ul>
-                    <li>Hover: le petit véhicule terrestre pratique pour forer, couper du bois ou simplement explorer.</li>
-                    <li>Navette: un petit vaisseau à courte ou moyene portée, le meilleur véhicule pour l'exploration.</li>
-                    <li>Vaisseau mère: Transport longue distance et outil de conquête, les dimensions peuvent être énormes ou toutes petites.</li>
-                    <li>Base: bâtiment et avant-poste, laissez votre imagination vous emporter.</li>
-                </ul>
-            </div>
-        </section>
-        <section id="serveur" class="cadre col-30 couleur-section">
-            <h2 class="texte-centre">Le serveur</h2>
-            <div class="main-section cadre">
-            <p>Petit serveur personnel que j'héberge chez moi sur un ordinateur dédié seulement aux serveurs de jeux.</p>
-            <p>Le serveur redémarre deux fois par jour pour vérifier les mises à jour et améliorer les performances, soit à 4h30 et 16h30.</p>
-            <p>Intel Core i5-12600K - CORSAIR Vengeance 64GB DDR5 6000</p>
-            <p>La manière que le serveur fonctionne présentement: 
-                <ul>
-                    <li>Une(1) base principale et autant d'avant-poste que vous pourrez protéger. Afin de récolter les différentes ressources, vous n'aurez pas le choix de visiter plusieurs planètes et lunes.</li>
-                    <li>Sur les planètes de départ (celles offertes par le serveur pour démarer la partie), il n'est pas permis de détruire complètement les bases aliennes, mais dans tous autres secteurs, vous ferez comme bon vous semblera. Moi je n'ai plus de Zirax autour de mes bases.</li>
-                    <li>La construction de gros vaisseaux est plus facile dans l'espace autant pour vous que pour le serveur. Merci d'en tenir compte.</li>
-                    <li>L'utilisation des mineurs automatique n'épuisent pas les ressources.</li>
-                </ul>
-            </div>
-        </section>
-        <section id="stats" class="cadre col-30 couleur-section">
-            <h2 class="texte-centre">Statistiques</h2>
-            <div class="main-section cadre">
-                <h5>Le serveur</h5>
-                <p>Les statistiques sont obtenus via un site externe qui interoge le serveur toutes les 5 minutes.</p>
-                <p><span id="status"></span><br /><span id="players"></span>/20</p>
-                
-                  <script>
-                    // Récupération des données depuis l'API
-                    const urlServeur = 'https://empyrion-servers.com/api/?object=servers&element=detail&key=540tiUx2b9TGKRGINi7WwUP3bdrjRUo9Sh';
-                
-                    fetch(urlServeur)
-                      .then(response => response.json())
-                      .then(data => {
-                        // Récupérer la valeur "players"
-                        const players = data.players;
-                        // Afficher la valeur dans le paragraphe avec l'ID "players"
-                        document.getElementById('players').textContent = `Joueurs : ${players}`;
-                        const votes = data.votes;
-                        // Afficher la valeur dans le paragraphe avec l'ID "votes"
-                        document.getElementById('votes').textContent = `Votes du mois : ${votes}`;
-                        const rank = data.rank;
-                        // Afficher la valeur dans le paragraphe avec l'ID "rank"
-                        document.getElementById('rank').textContent = `Rang : ${rank}`;
-                        // Récupérer la valeur de is_online
-                        const isOnline = data.is_online;
-                        // Déterminer le statut
-                        const statusText = isOnline === '1' ? "En ligne" : "Hors ligne";
-                        // Afficher le statut dans le paragraphe avec l'ID "status"
-                        document.getElementById('status').textContent = `Statut du serveur : ${statusText}`;
-                      })
-                      .catch(error => {
-                        console.error('Erreur lors de la récupération des données:', error);
-                        document.getElementById('players').textContent = "Erreur lors de la récupération des données";
-                      });
-                  </script>
-  
-                <script src="https://empyrion-servers.com/embed.js?id=57326&type=votes"></script>
-                <p><span id="votes"></span><br />
-                  <span id="rank"></span></p>
-                <h5>Le joueur</h5>
-                <p>Les statistiques sont obtenu via la plateforme Steam.</p>
-<iframe src="https://odinn.biz/formation/TP1-intWeb2/steamInfo.php" frameborder="0" width="100%" height="50px" scrolling="no"></iframe>
-            </div>
-        </section>
-    </div>
-    <section id="trucs">
-    <div class="container-grid">
-        <div class="grid grid-item1 cadre">
-          <h5>Se nourrir</h5>
-          <hr>
-          <p>Probablement la chose la plus importante du jeu. Récolte et agriculture sont à découvrir.</p>
-          <p>Les packs de ration sont les plus efficaces.</p>
-        </div>
-        <div class="grid grid-item2 cadre">
-          <h5>Se protéger</h5>
-          <hr>
-          <p>Un abri, des armes et des munitions face aux invasions, les créatures sauvages et autres danger.</p>
-          <p>Développer les technologies nécessaires pour fabriquer vos armes et munitions et construire une base bien défendue. Vous n'êtes pas seul.</p>
-        </div>
-        <div class="grid grid-item3 cadre">
-          <h5>Explorer</h5>
-          <hr>
-          <p>Partez à la recherche des gisements, artefacts et autres civilisations.</p>
-        </div>
-        <div class="grid grid-item4 cadre">
-          <h5>Exploiter</h5>
-          <hr>
-          <p>La récolte de ressources est importante. Vous en aurez besoin pour construire.</p>
-        </div>
-        <div class="grid grid-item5 cadre">
-          <h5>Commercer</h5>
-          <hr>
-          <p>Vous pourrez faire du commerce avec d'autres civilisations et même avec d'autres joueurs.</p>
-        </div>
-        <div class="grid grid-item6 cadre">
-          <h5>Conquérir</h5>
-          <hr>
-          <p>Pas toujours facile, mais conquérir des bases ennemies permet de rammaser plusieurs ressources rares, comme des coeurs de mineurs automatiques, or et plus.</p>
-          <p>Mettez en pratique votre stratégie ou mettez à l'épreuve vos nouveaux véhicules. Défaite ou victoire, à vous de voir.</p>
-        </div>
-    </div>
-  </section>
-  <section>
-    <div class="container-flex flex2">
-      <div class="col-70 texte-centre"><a href="medias/statistiques.png" target="_blank"><img src="medias/statistiques.png" alt="Statistiques des joueurs" width="100%"></a></div>
-      <div class="col-30 texte-centre">
-        <h3>Statistiques des joueurs</h3>
-        <p>Cliquez sur l'image pour agrandir.</p>
+  <header>
+    <div class="container-flex">
+      <div class="col-20 centre">
+        <h1>Empyrion</h1>
+        <h5>Survivant Galactique</h5>
+      </div>
+      <div class="col-80 texte-droite">
+        <nav>
+          <ul>
+            <li><a href="#jeu" class="btn">Le Jeu</a></li>
+            <li><a href="#serveur" class="btn">Le Serveur</a></li>
+            <li><a href="#trucs" class="btn">Trucs et astuces</a></li>
+            <li><a href="#joindre" class="btn">Nous joindre</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-</section>
-  <section class="texte-centre">
-    <h3>Les factions du serveur</h3>
-  </section>
-<div class="container-flex flex2-">
+  </header>
 
-  <section class="cadre col-20 couleur-section">
-    <h5 class="texte-centre">Asgards</h5>
-    <div class="main-section cadre texte-centre">
-      <p>Odinn Qc<br />
-      Gravitysoulz<br />
-    Melicendre</p>
+  <main class="container">
+    <section>
+      <div class="container-flex">
+        <div class="texte-centre col-100">
+          <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="medias/mineur.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Mineur automatique</h5>
+                    <p>La clé de la récolte, faire le tour tous les jours pour ramasser les ressouces miners durant
+                      notre absence.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="medias/serre.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>La serre</h5>
+                    <p>Bien se nourrir c'est important et l'aggriculture est le meilleur moyen d'y arriver.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="medias/base.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Construire sa base</h5>
+                    <p>Un endroit pour s'installer et rassembler nos ressources.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="medias/espace.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>L'espace et ces différentes nations</h5>
+                    <p>Beaucoup d'endroit à explorer et o&ugrave; l'on peut s'installer.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="medias/navette.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Les navettes</h5>
+                    <p>Le moyen le plus rapide d'explorer une planète.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="medias/vaisseau.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Les vaisseaux</h5>
+                    <p>Pour voyager entre les planètes ou pour faire la guerre, c'est à vous de décider.</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="texte-centre">
+      <h1>Le petit monde d'Óðinn</h1>
+      <p>La manière la plus simple de conquérir l'Univers.</p>
+    </section>
+    <div class="container-flex flex2">
+      <section id="jeu" class="cadre col-30 couleur-section">
+        <h2 class="texte-centre">Le jeu</h2>
+        <div class="main-section cadre">
+          <p>Jeu de survie et de conquête dans l'infini de l'espace.</p>
+          <p>Construisez votre civilisation en récoltant les ressources nécessaires sur différents mondes.</p>
+          <p>Défendez-vous contre les extra terrestres et les créatures hostiles.</p>
+          <p>Explorez et partez à la conquête d'autres territoires à exploiter.</p>
+          <p>Pour construire, il y a une très grande quantité de choses possible à faire.</p>
+          <ul>
+            <li>Hover: le petit véhicule terrestre pratique pour forer, couper du bois ou simplement explorer.</li>
+            <li>Navette: un petit vaisseau à courte ou moyene portée, le meilleur véhicule pour l'exploration.</li>
+            <li>Vaisseau mère: Transport longue distance et outil de conquête, les dimensions peuvent être énormes ou
+              toutes petites.</li>
+            <li>Base: bâtiment et avant-poste, laissez votre imagination vous emporter.</li>
+          </ul>
+        </div>
+      </section>
+      <section id="serveur" class="cadre col-30 couleur-section">
+        <h2 class="texte-centre">Le serveur</h2>
+        <div class="main-section cadre">
+          <p>Petit serveur personnel que j'héberge chez moi sur un ordinateur dédié seulement aux serveurs de jeux.</p>
+          <p>Le serveur redémarre deux fois par jour pour vérifier les mises à jour et améliorer les performances, soit
+            à 4h30 et 16h30.</p>
+          <p>Intel Core i5-12600K - CORSAIR Vengeance 64GB DDR5 6000</p>
+          <p>La manière que le serveur fonctionne présentement:
+          <ul>
+            <li>Une(1) base principale et autant d'avant-poste que vous pourrez protéger. Afin de récolter les
+              différentes ressources, vous n'aurez pas le choix de visiter plusieurs planètes et lunes.</li>
+            <li>Sur les planètes de départ (celles offertes par le serveur pour démarer la partie), il n'est pas permis
+              de détruire complètement les bases aliennes, mais dans tous autres secteurs, vous ferez comme bon vous
+              semblera. Moi je n'ai plus de Zirax autour de mes bases.</li>
+            <li>La construction de gros vaisseaux est plus facile dans l'espace autant pour vous que pour le serveur.
+              Merci d'en tenir compte.</li>
+            <li>L'utilisation des mineurs automatique n'épuisent pas les ressources.</li>
+          </ul>
+        </div>
+      </section>
+      <section id="stats" class="cadre col-30 couleur-section">
+        <h2 class="texte-centre">Statistiques</h2>
+        <div class="main-section cadre">
+          <h5>Le serveur</h5>
+          <p>Les statistiques sont obtenus via un site externe qui interoge le serveur toutes les 5 minutes.</p>
+          <p><span id="status"></span><br /><span id="players"></span>/20</p>
+
+          <script>
+            // Récupération des données depuis l'API
+            const urlServeur = 'https://empyrion-servers.com/api/?object=servers&element=detail&key=540tiUx2b9TGKRGINi7WwUP3bdrjRUo9Sh';
+
+            fetch(urlServeur)
+              .then(response => response.json())
+              .then(data => {
+                // Récupérer la valeur "players"
+                const players = data.players;
+                // Afficher la valeur dans le paragraphe avec l'ID "players"
+                document.getElementById('players').textContent = `Joueurs : ${players}`;
+                const votes = data.votes;
+                // Afficher la valeur dans le paragraphe avec l'ID "votes"
+                document.getElementById('votes').textContent = `Votes du mois : ${votes}`;
+                const rank = data.rank;
+                // Afficher la valeur dans le paragraphe avec l'ID "rank"
+                document.getElementById('rank').textContent = `Rang : ${rank}`;
+                // Récupérer la valeur de is_online
+                const isOnline = data.is_online;
+                // Déterminer le statut
+                const statusText = isOnline === '1' ? "En ligne" : "Hors ligne";
+                // Afficher le statut dans le paragraphe avec l'ID "status"
+                document.getElementById('status').textContent = `Statut du serveur : ${statusText}`;
+              })
+              .catch(error => {
+                console.error('Erreur lors de la récupération des données:', error);
+                document.getElementById('players').textContent = "Erreur lors de la récupération des données";
+              });
+          </script>
+
+          <script src="https://empyrion-servers.com/embed.js?id=57326&type=votes"></script>
+          <p><span id="votes"></span><br />
+            <span id="rank"></span>
+          </p>
+          <h5>Le joueur</h5>
+          <p>Les statistiques sont obtenu via la plateforme Steam.</p>
+          <iframe src="https://odinn.biz/formation/TP1-intWeb2/steamInfo.php" frameborder="0" width="100%" height="50px"
+            scrolling="no"></iframe>
+        </div>
+      </section>
     </div>
-</section>
-<section class="cadre col-20 couleur-section">
-  <h5 class="texte-centre">SWT</h5>
-  <div class="main-section cadre texte-centre">
-    <p>ethalo<br />
-      Swat</p>
-  </div>
-</section>
-<section class="cadre col-20 couleur-section">
-  <h5 class="texte-centre">t&n</h5>
-  <div class="main-section cadre texte-centre">
-    <p>Nout<br />
-      traxdata</p>
-  </div>
-</section>
-<section class="cadre col-20 couleur-section">
-  <h5 class="texte-centre">hurlevent</h5>
-  <div class="main-section cadre texte-centre">
-    <p>tthor59</p>
-  </div>
-</section>
-</div>
-
-
-
-
-
-
-
-    </main>
-    <footer>
-        <div class="container-flex">
-            <div class="texte-centre">
-              <h2>Empyrion</h2>
-              <h5>Survivant Galactique</h5>
-            </div>
+    <section id="trucs">
+      <div class="container-grid">
+        <div class="grid grid-item1 cadre couleur-section">
+          <h5>Se nourrir</h5>
+          <div class="main-section cadre texte-centre">
+            <p>Probablement la chose la plus importante du jeu. Récolte et agriculture sont à découvrir.</p>
+            <p>Les packs de ration sont les plus efficaces.</p>
+          </div>
         </div>
-        <div class="container-flex">
-            <div class="col-30 texte-gauche">
-                <p>Fait par Lucas Comtois</p>
-            </div>
-            <div class="col-30 texte-centre">
-                <p><a href="https://www.facebook.com/odinn.qc/" target="_blank"><img src="https://odinn.ca/medias/logos/reseaux_sociaux/facebook.png" alt="Lien vers facebook"></a><a href="https://github.com/lucascomt/TP1-intWeb2/" target="_blank"><img src="https://odinn.ca/medias/logos/reseaux_sociaux/github.png" alt="Lien vers GitHub"></a><a href="https://www.instagram.com/odinnqc/" target="_blank"><img src="https://odinn.ca/medias/logos/reseaux_sociaux/instagram.png" alt="Lien vers instagram"></a><a href="https://www.youtube.com/channel/UCeEX6ECRqfG0iOl-1wt4KyQ" target="_blank"><img src="https://odinn.ca/medias/logos/reseaux_sociaux/youtube-blanc.png" alt="Lien vers YouTube"></a></p>
-            </div>
-            <div class="col-30 texte-droite">
-                <p>Tel: <a href="tel:***-***-****">***-***-****</a> Courriel: <a href="mailto:lucas@odinn.biz">lucas@odinn.biz</a></p>
-            </div>
+        <div class="grid grid-item2 cadre couleur-section">
+          <h5>Se protéger</h5>
+          <div class="main-section cadre texte-centre">
+            <p>Un abri, des armes et des munitions face aux invasions, les créatures sauvages et autres danger.</p>
+            <p>Développer les technologies nécessaires pour fabriquer vos armes et munitions et construire une base bien
+            défendue. Vous n'êtes pas seul.</p>
+          </div>
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <div class="grid grid-item3 cadre couleur-section">
+          <h5>Explorer</h5>
+          <div class="main-section cadre texte-centre">
+            <p>Partez à la recherche des gisements, artefacts et autres civilisations.</p>
+          </div>
+        </div>
+        <div class="grid grid-item4 cadre couleur-section">
+          <h5>Exploiter</h5>
+          <div class="main-section cadre texte-centre">
+            <p>La récolte de ressources est importante. Vous en aurez besoin pour construire.</p>
+          </div>
+        </div>
+        <div class="grid grid-item5 cadre couleur-section">
+          <h5>Commercer</h5>
+          <div class="main-section cadre texte-centre">
+            <p>Vous pourrez faire du commerce avec d'autres civilisations et même avec d'autres joueurs.</p>
+          </div>
+        </div>
+        <div class="grid grid-item6 cadre couleur-section">
+          <h5>Conquérir</h5>
+          <div class="main-section cadre texte-centre">
+            <p>Pas toujours facile, mais conquérir des bases ennemies permet de rammaser plusieurs ressources rares, comme
+            des coeurs de mineurs automatiques, or et plus.</p>
+            <p>Mettez en pratique votre stratégie ou mettez à l'épreuve vos nouveaux véhicules. Défaite ou victoire, à
+            vous de voir.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="statistiques">
+      <div class="container-flex flex2">
+        <div class="col-70 texte-centre"><a href="medias/statistiques.png" target="_blank"><img
+              src="medias/statistiques.png" alt="Statistiques des joueurs" width="100%"></a></div>
+        <div class="col-30 texte-centre">
+          <h3>Statistiques des joueurs</h3>
+          <p>Cliquez sur l'image pour agrandir.</p>
+        </div>
+      </div>
+    </section>
+    <section id="factions" class="texte-centre">
+      <h3>Les factions du serveur</h3>
+    
+    <div class="container-flex flex2">
+
+      <div class="cadre col-20 couleur-section">
+        <h5 class="texte-centre">Asgards</h5>
+        <div class="main-section cadre texte-centre">
+          <p>Odinn Qc<br />
+            Gravitysoulz<br />
+            Melicendre</p>
+        </div>
+      </div>
+      <div class="cadre col-20 couleur-section">
+        <h5 class="texte-centre">SWT</h5>
+        <div class="main-section cadre texte-centre">
+          <p>ethalo<br />
+            Swat</p>
+        </div>
+      </div>
+      <div class="cadre col-20 couleur-section">
+        <h5 class="texte-centre">t&n</h5>
+        <div class="main-section cadre texte-centre">
+          <p>Nout<br />
+            traxdata</p>
+        </div>
+      </div>
+      <div class="cadre col-20 couleur-section">
+        <h5 class="texte-centre">hurlevent</h5>
+        <div class="main-section cadre texte-centre">
+          <p>tthor59</p>
+        </div>
+      </div>
+    </section>
+    </div>
+
+
+
+
+
+
+
+  </main>
+  <footer>
+    <div class="container-flex">
+      <div class="texte-centre">
+        <h2>Empyrion</h2>
+        <h5>Survivant Galactique</h5>
+      </div>
+    </div>
+    <div class="container-flex">
+      <div class="col-30 texte-gauche">
+        <p>Fait par Lucas Comtois dans le cadre de la formation Front-End du Cégep de Trois-Rivères.</p>
+      </div>
+      <div class="col-30 texte-centre">
+        <p><a href="https://www.facebook.com/odinn.qc/" target="_blank"><img
+              src="https://odinn.ca/medias/logos/reseaux_sociaux/facebook.png" alt="Lien vers facebook"></a><a
+            href="https://github.com/lucascomt/TP1-intWeb2/" target="_blank"><img
+              src="https://odinn.ca/medias/logos/reseaux_sociaux/github.png" alt="Lien vers GitHub"></a><a
+            href="https://www.instagram.com/odinnqc/" target="_blank"><img
+              src="https://odinn.ca/medias/logos/reseaux_sociaux/instagram.png" alt="Lien vers instagram"></a><a
+            href="https://www.youtube.com/channel/UCeEX6ECRqfG0iOl-1wt4KyQ" target="_blank"><img
+              src="https://odinn.ca/medias/logos/reseaux_sociaux/youtube-blanc.png" alt="Lien vers YouTube"></a></p>
+      </div>
+      <div class="col-30 texte-droite">
+        <p>Tel: <a href="tel:***-***-****">***-***-****</a> Courriel: <a
+            href="mailto:lucas@odinn.biz">lucas@odinn.biz</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
