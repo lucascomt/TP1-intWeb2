@@ -146,12 +146,8 @@ iframe {
   justify-content: center;
 }
 
-.col-50 {
-  width: 50%;
-}
-
 .col-30 {
-  width: 33%;
+  width: 30%;
 }
 
 .col-70 {
@@ -162,7 +158,9 @@ iframe {
   width: 20%;
   min-width: 150px;
 }
-
+.col-25 {
+  width: 25%;
+}
 .col-80 {
   width: 80%;
 }
