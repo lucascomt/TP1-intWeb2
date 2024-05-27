@@ -43,6 +43,11 @@ section {
   margin: 10px;
 }
 
+input, textarea {
+  width: 90%;
+  margin: 5px;
+}
+
 img {
   border-radius: 5px;
 }
@@ -161,7 +166,9 @@ iframe {
 .col-80 {
   width: 80%;
 }
-
+.col-50 {
+  width: 48%;
+}
 .container-grid {
   width: 100%;
   display: grid;
@@ -249,6 +256,12 @@ h5 {
 .texte-centre {
   text-align: center;
   justify-content: center;
+}
+
+/* Section contact */
+.carte {
+  background-image: url("../../medias/carte.png");
+  height: 600px;
 }
 
 /* Texte destiné uniquement aux lecteurs d'écran. */
